@@ -31,35 +31,35 @@ Transformamos datos empresariales en información estratégica para mejorar la t
 
 💻Tecnologías utilizadas
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
 👨‍💻Integrantes del equipo (CIPA Dev-Ops)
 
-* Esteban Domínguez
-* Erick Marrugo
-* Kevin Ochoa
-* Sebastián Ortiz
-* Valery Espinosa
+- Esteban Domínguez
+- Erick Marrugo
+- Kevin Ochoa
+- Sebastián Ortiz
+- Valery Espinosa
 
 ---
 
 🌐 Repositorio
 
 Aquí puedes encontrar el código fuente del proyecto:
-
+https://github.com/Edom1020/Actividad1y2DesarrolloWeb.git
 
 ---
 
 📱 Características
 
-* Diseño responsivo (móvil, tablet y PC)
-* Interfaz moderna
-* Navegación intuitiva
-* Sección de servicios clara
+- Diseño responsivo (móvil, tablet y PC)
+- Interfaz moderna
+- Navegación intuitiva
+- Sección de servicios clara
 
 ---
 
@@ -71,4 +71,4 @@ En desarrollo
 
 📌 Notas
 
-Este proyecto fue realizado con fines educativos como parte de la asignatura  de desarrollo de software web.
+Este proyecto fue realizado con fines educativos como parte de la asignatura de desarrollo de software web.
