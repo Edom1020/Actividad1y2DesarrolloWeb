@@ -264,4 +264,21 @@ body {
     .whatsapp-btn img {
         width: 65px;
     }
+
+
+    /* ---- RESPONSIVE DE LA SECCION GALERIA ---- */
+
+    /* Tablet */
+@media (max-width: 768px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Móvil */
+@media (max-width: 480px) {
+  .grid-galeria {
+    grid-template-columns: 1fr;
+  }
+}
 }
