@@ -78,6 +78,22 @@ body {
     text-align: center;
 }
 
+item {
+  overflow: hidden;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.item img:hover {
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
 
     .hero {
@@ -265,6 +281,17 @@ body {
         width: 65px;
     }
 
+/* ---- galeria base ---- */
+.galeria {
+  padding: 40px;
+  text-align: center;
+}
+
+.grid-galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
 
     /* ---- RESPONSIVE DE LA SECCION GALERIA ---- */
 
@@ -280,5 +307,4 @@ body {
   .grid-galeria {
     grid-template-columns: 1fr;
   }
-}
 }
