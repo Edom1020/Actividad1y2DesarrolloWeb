@@ -1,4 +1,5 @@
 // script.js
+const menuToggle = document.getElementById('menuToggle');
 const navLinks = document.getElementById('navLinks');
 const themeToggle = document.getElementById('themeToggle');
 
