@@ -292,4 +292,19 @@ item {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+
+    /* ---- RESPONSIVE DE LA SECCION GALERIA ---- */
+
+    /* Tablet */
+@media (max-width: 768px) {
+  .grid-galeria {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Móvil */
+@media (max-width: 480px) {
+  .grid-galeria {
+    grid-template-columns: 1fr;
+  }
 }
