@@ -280,31 +280,41 @@ item {
     .whatsapp-btn img {
         width: 65px;
     }
-
-/* ---- galeria base ---- */
-.galeria {
-  padding: 40px;
-  text-align: center;
 }
 
-.grid-galeria {
+/* ---- galeria base ---- */
+ .galeria {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .galeria h2 {
+  display: block;
+  width: 100%;
+  text-align: center;
+ }
+
+
+ .grid-galeria {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-}
+ }
 
-    /* ---- RESPONSIVE DE LA SECCION GALERIA ---- */
+/* ---- RESPONSIVE DE LA SECCION GALERIA ---- */
 
-    /* Tablet */
-@media (max-width: 768px) {
+/* Tablet */
+ @media (max-width: 768px) {
   .grid-galeria {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+ }
 
 /* Móvil */
-@media (max-width: 480px) {
-  .grid-galeria {
-    grid-template-columns: 1fr;
-  }
-}
+ @media (max-width: 480px) {
+     .grid-galeria {
+         grid-template-columns: 1fr;
+     }
+ }
